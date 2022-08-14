@@ -93,3 +93,14 @@ for x in automobil:
 # dodati novi element prosecna_ocena,
 # i na kraju ispisati sve kljuceve i vrednosti jedne ispod drugih,
 # osim godina_rodjenja.
+
+student = {
+    "ime":"Dzenan",
+    "broj_indeksa":19141,
+    "godina_rodjenja":1996
+}
+
+for i,x in student.items():
+    if i == "godina_rodjenja":
+        continue
+    print(i,x)
